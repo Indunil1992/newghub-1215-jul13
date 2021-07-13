@@ -1,0 +1,72 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "ad256ec9-6677-4f01-87c4-8fbd0a36fe7d": {
+        "id": "ad256ec9-6677-4f01-87c4-8fbd0a36fe7d",
+        "parent": null,
+        "name": "newGhub-1215-Jul13.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "newGhub-1215-Jul13.js",
+        "cursor": {
+          "lineNumber": 3,
+          "column": 41
+        },
+        "config": {
+          "runtime": "nodejs14.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "newGhub1215Jul13"
+        },
+        "triggers": [],
+        "lastUpdated": 1626158729755
+      }
+    },
+    "openFiles": [
+      "ad256ec9-6677-4f01-87c4-8fbd0a36fe7d"
+    ],
+    "currentFileId": "ad256ec9-6677-4f01-87c4-8fbd0a36fe7d",
+    "resources": {},
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.9.1",
+    "projectName": "newGhub-1215-Jul13",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1626158756832
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "newghub-1215-jul13",
+      "url": "https://github.com/Indunil1992/newghub-1215-jul13"
+    }
+  }
+}
