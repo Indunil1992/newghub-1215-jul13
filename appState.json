@@ -24,13 +24,59 @@
         },
         "triggers": [],
         "lastUpdated": 1626158729755
+      },
+      "0652ed4d-de21-40b6-8779-e5143db66a5b": {
+        "id": "0652ed4d-de21-40b6-8779-e5143db66a5b",
+        "parent": null,
+        "name": "newFF.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "newFF.js",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs14.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "newFF"
+        },
+        "triggers": [],
+        "lastUpdated": 1626158862503
+      },
+      "26ef537c-1660-4591-8898-ff7d2e0ba23f": {
+        "id": "26ef537c-1660-4591-8898-ff7d2e0ba23f",
+        "parent": null,
+        "name": "package.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "package.json"
       }
     },
     "openFiles": [
-      "ad256ec9-6677-4f01-87c4-8fbd0a36fe7d"
+      "ad256ec9-6677-4f01-87c4-8fbd0a36fe7d",
+      "0652ed4d-de21-40b6-8779-e5143db66a5b"
     ],
-    "currentFileId": "ad256ec9-6677-4f01-87c4-8fbd0a36fe7d",
-    "resources": {},
+    "currentFileId": "0652ed4d-de21-40b6-8779-e5143db66a5b",
+    "resources": {
+      "s3induuuu": {
+        "name": "s3induuuu",
+        "type": "S3",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "name": "induuuu"
+          }
+        }
+      }
+    },
     "customTemplate": {
       "syntax": "JSON",
       "overrideDefault": false,
@@ -48,7 +94,15 @@
       }
     ],
     "packageJSON": {
-      "dependencies": {}
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.817.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
     }
   },
   "PROJECT_META": {
@@ -60,7 +114,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1626158756832
+    "lastSave": 1626158888363
   },
   "VCS_STATE": {
     "provider": "GitHub",
